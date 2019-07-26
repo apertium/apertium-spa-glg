@@ -1,0 +1,67 @@
+Spanish and Galician
+
+                            apertium-spa-cat
+===============================================================================
+
+This is an Apertium language pair for translating between Spanish and
+Galician. What you can use this language package for:
+
+For information on the latter two points, see subheading "For more
+information" below
+
+Requirements
+===============================================================================
+
+You will need the following software installed:
+
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* apertium-spa
+* apertium-cat
+
+If this does not make any sense, we recommend you look at: www.apertium.org
+
+**************Spanish--Catalan with economy vocabulary**********************
+
+To compile using the economy vocabulary (entries with "eco" tag in the dictionaries), type:
+cp Makefile.am.eco Makefile.am
+./autogen.sh
+make 
+sudo make install
+
+You can use ./autogen.sh instead of ./configure you're compiling from
+SVN. If you installed any prerequisite language packages using a --prefix
+to ./configure, make sure to give the same --prefix to ./configure here.
+
+If you had the standard linguistic data already installed, or if some error occurs in compilation, you should type:
+
+cp Makefile.am.eco Makefile.am
+sudo make distclean
+./autogen.sh
+make 
+sudo make install
+
+After compiling, to use Apertium with the economy vocabulary, use the same commands presented above (apertium es-ca ; apertium ca-es)
+
+
+**************TAGGER *****************************
+
+To use this language-pair package with apertium YOU DO NOT NEED TO
+RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
+both the cat-spa and the spa-cat translation directions which should be
+acceptable for most applications, and should work even if you change
+the dictionaries in a reasonably way.
+
+If for some reason you need to retrain the tagger (for example, you
+have made really extensive changes to the dictionaries such as
+creating new lexical categories), please see the documentation
+on our Wiki:
+ 
+  http://wiki.apertium.org/wiki/Tagger_training
+
+===================================================================
+
+More information about this module, and others can be found on
+the Apertium: Wiki, http://wiki.apertium.org
+
+
