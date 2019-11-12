@@ -179,13 +179,13 @@
 			<cat-item lemma="bo" tags="adj.m.sg"/>
 		</def-cat>
 		<def-cat n="primeiro">
-			<cat-item lemma="primeiro" tags="adj.m.sg"/>
+			<cat-item lemma="primeiro" tags="adj.ord.m.sg"/>
 		</def-cat>
 		<def-cat n="nos">
 			<cat-item lemma="nos" tags="prn.pro.p1.mf.pl"/>
 		</def-cat>
 		<def-cat n="segundo">
-			<cat-item lemma="segundo" tags="adj.m.sg"/>
+			<cat-item lemma="segundo" tags="adj.ord.m.sg"/>
 		</def-cat>
 		<def-cat n="deseu">
 			<cat-item lemma="de seu" tags="adv"/>
@@ -232,6 +232,7 @@
 			<attr-item tags="adj.sup"/>
 			<attr-item tags="adj.itg"/>
 			<attr-item tags="adj.pos"/>
+			<attr-item tags="adj.ord"/>
 			<attr-item tags="adj"/>
 			<attr-item tags="vblex.pp"/>
 		</def-attr>
@@ -3269,7 +3270,7 @@
 						<get-case-from pos="1">
 							<lit v="primer"/>
 						</get-case-from>
-						<lit-tag v="adj.m.sg"/>
+						<lit-tag v="adj.ord.m.sg"/>
 					</lu>
 					<b/>
 					<lu>
@@ -3296,7 +3297,7 @@
 					<b/>
 					<lu>
 						<lit v="primer"/>
-						<lit-tag v="adj.m.sg"/>
+						<lit-tag v="adj.ord.m.sg"/>
 					</lu>
 					<b/>
 					<lu>
