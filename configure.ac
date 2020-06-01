@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Spanish-Galician], [1.2.0], [xgg@uvigo.es], [apertium-spa-glg], [http://wiki.apertium.org/wiki/Apertium-spa-glg])
+AC_INIT([Apertium Spanish-Galician], [2.1.0], [xgg@uvigo.es], [apertium-spa-glg], [http://wiki.apertium.org/wiki/Apertium-spa-glg])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
@@ -20,4 +20,3 @@ AP_CHECK_LING([2], [apertium-glg])
 AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
-

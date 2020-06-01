@@ -2,7 +2,6 @@
 ## Makefile for Spanish--Galician
 ###############################################################################
 
-VERSION=2.1.0
 LANG1=spa
 LANG2=glg
 
