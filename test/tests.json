@@ -1,0 +1,10 @@
+{
+    "glg-spa": {
+        "input": "glg-spa-input.txt",
+        "mode": "glg-spa"
+    },
+    "spa-glg": {
+        "input": "spa-glg-input.txt",
+        "mode": "spa-glg"
+    }
+}

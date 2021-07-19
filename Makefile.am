@@ -180,10 +180,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "buenos días" | apertium -d . spa-glg | tee .test-mt
-	@echo "bos días" > .test-ref
-	@diff .test-ref .test-mt
-	echo "bos días" | apertium -d . glg-spa | tee .test-mt
-	@echo "buenos días" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test
